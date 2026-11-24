@@ -18,8 +18,6 @@ var name = 'Tisha'
 
 
 
-
-
 //###if else statement
 // var name = 'Tasnia Ahmed Tisha';
 // if (name == 'Tisha') {
@@ -30,8 +28,6 @@ var name = 'Tisha'
 //     console.log('Name is not Tisha');
 
 // }
-
-
 
 
 
@@ -54,7 +50,21 @@ colors.pop(); //pop for removing last value from array
 colors.shift(); //shift for removing first value from array
 colors.unshift('black'); //unshift for adding new value in array at the first place
 
-console.log(colors)
+//console.log(colors)
+
+//###for loop
+// for(var i = 0; i < colors.length; i++){
+//     console.log(colors[i]);
+// }
+
+
+//function declaration
+function add(num1, num2){
+    return(num1 + num2);
+}
+
+add(5, 10); //function call
+
 
 
 
